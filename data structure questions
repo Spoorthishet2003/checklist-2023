@@ -1,0 +1,60 @@
+Here are some common data structure interview questions along with their answers:
+
+1.What is a data structure?
+Answer: A data structure is a way of organizing and storing data in a computer's memory. It defines how data can be stored, accessed, and manipulated efficiently.
+
+2.What are the basic types of data structures?
+Answer: The basic types of data structures include arrays, linked lists, stacks, queues, trees, graphs, and hash tables.
+
+3.What is the difference between an array and a linked list?
+Answer: Arrays are fixed in size and have contiguous memory allocation, while linked lists are dynamic in size and use non-contiguous memory through nodes with pointers.
+
+4.What is a stack, and how does it work?
+Answer: A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle. It supports two main operations: push (to add an element) and pop (to remove the top element).
+
+5.Explain the concept of a queue.
+Answer: A queue is a linear data structure that follows the First-In, First-Out (FIFO) principle. It supports two primary operations: enqueue (to add an element) and dequeue (to remove the front element).
+
+6.What are binary trees?
+Answer: Binary trees are hierarchical data structures in which each node has at most two children, referred to as the left child and the right child.
+
+7.What is a binary search tree (BST)?
+Answer: A binary search tree is a binary tree in which the left subtree of each node contains values less than the node, and the right subtree contains values greater than the node.
+
+8.Explain the concept of a hash table.
+Answer: A hash table is a data structure that stores key-value pairs and uses a hash function to map keys to specific locations (buckets) for efficient data retrieval.
+
+9.What is the time complexity for searching in a hash table?
+Answer: The average-case time complexity for searching in a hash table is O(1) due to the use of a hash function. However, in the worst case, it can be O(n) if many collisions occur.
+
+10.What is a linked list cycle, and how would you detect it?
+Answer: A linked list cycle occurs when a node in the list points to a previous node, creating a loop. You can detect it using Floyd's Tortoise and Hare algorithm, where two pointers move at different speeds.
+
+11. Explain the concept of a heap.
+Answer: A heap is a tree-based data structure that maintains the heap property. In a min-heap, the parent node has a smaller value than its children, while in a max-heap, the parent node has a larger value than its children.
+
+12 .What is a trie (prefix tree)?
+Answer: A trie is a tree-like data structure used to efficiently store a dynamic set of strings. It's particularly useful for tasks like autocomplete and dictionary implementations.
+
+13. Compare an array and a dynamic array (e.g., ArrayList in Java).
+Answer: An array has a fixed size, while a dynamic array can resize itself when necessary. Dynamic arrays, like ArrayList in Java, provide methods for dynamic resizing, making them more flexible.
+
+14. Explain the concept of a graph and its types.
+Answer: A graph is a collection of nodes (vertices) and edges. Graphs can be classified as directed or undirected, weighted or unweighted, and cyclic or acyclic.
+
+15. How do you find the shortest path in a weighted graph?
+Answer: You can use algorithms like Dijkstra's or Bellman-Ford to find the shortest path in a weighted graph. Dijkstra's is used for non-negative edge weights, while Bellman-Ford handles negative weights.
+
+16. What is the LRU (Least Recently Used) cache algorithm, and how would you implement it using data structures?
+Answer: LRU is a cache replacement policy where the least recently used item is removed when the cache is full. You can implement it using a combination of a hash table and a doubly linked list.
+
+17. What is the difference between a stack and a queue?
+Answer: A stack follows the Last-In, First-Out (LIFO) principle, while a queue follows the First-In, First-Out (FIFO) principle.
+
+18. Discuss the concept of a self-balancing tree (e.g., AVL or Red-Black tree).
+Answer: Self-balancing trees automatically maintain their balance, ensuring efficient operations. AVL and Red-Black trees are examples of self-balancing binary search trees.
+
+
+
+
+
